@@ -278,6 +278,14 @@ body.light-theme .contact-right textarea {
 }
 
 /* MOBILE VIEW */
+@media (max-width:768px){
+    .skill-tags{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 per row */
+        gap:15px;
+        justify-items:center; /* 🔥 center each item */
+    }
+}
 @media (max-width: 768px) {
     .firstSection {
         flex-direction: column;
@@ -1053,8 +1061,8 @@ padding:20px;
             <li><a href="#">🏠Home</a></li>
             <li><a href="#skills">💡Skills</a></li>
             <li><a href="#projects">💻Projects</a></li>
-            <li><a href="#codingprofiles">🎓Coding Profiles</a></li>
-            <li><a href="#certificates">🎓Certificates</a></li>
+            <li><a href="#codingprofiles">👩‍💻Coding Profiles</a></li>
+            <li><a href="#certificates">🥇Certificates</a></li>
             <li><a href="#education">🎓Education</a></li>
             <li><a href="#contact">📞Contact</a></li>
         </ul>
