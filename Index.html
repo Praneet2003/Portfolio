@@ -1042,6 +1042,17 @@ background:rgb(18,18,62);
 text-align:center;
 padding:20px;
 }
+.project-img img{
+    width:100%;
+    height:230px;
+    object-fit:cover;   /* same as projects */
+}
+#codingProfiles .project-img img{
+    height:180px;   /* 🔥 smaller height = less crop */
+}
+#codingProfiles .project-img img{
+    object-fit:contain;
+}
 </style>
 </head>
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -1060,8 +1071,8 @@ padding:20px;
             <li><a href="#">🏠Home</a></li>
             <li><a href="#skills">💡Skills</a></li>
             <li><a href="#projects">💻Projects</a></li>
-            <li><a href="#codingprofiles">👩‍💻Coding Profiles</a></li>
-            <li><a href="#certificates">🥇Certificates</a></li>
+            <li><a href="#codingProfiles">👩‍💻Coding Profiles</a></li>
+            <li><a href="#certifications">🥇Certificates</a></li>
             <li><a href="#education">🎓Education</a></li>
             <li><a href="#contact">📞Contact</a></li>
         </ul>
@@ -1432,7 +1443,7 @@ Enabled regional data insights.</p>
 </section>
 <hr>
 <!-- certifications -->
-<section id="certifications" class="secondSection">
+<!-- <section id="certifications" class="secondSection"> -->
 <section id="certifications" class="secondSection">
 <div class="section-title-wrapper">
     <h1 class="section-heading">CERTIFICATIONS</h1>
